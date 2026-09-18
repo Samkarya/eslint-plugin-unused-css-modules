@@ -1,0 +1,19 @@
+.used {
+  color: red;
+}
+
+.dead {
+  color: blue;
+}
+
+.ignoredByComment { // css-modules-ignore-unused
+  color: green;
+}
+
+.dynamicPrefixEasy {
+  color: purple;
+}
+
+:global(.global-only) {
+  color: black;
+}

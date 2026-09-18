@@ -1,0 +1,46 @@
+{
+  "name": "eslint-plugin-unused-css-modules",
+  "version": "1.0.0",
+  "description": "ESLint rule that flags CSS Module classes (*.module.scss/.sass/.css) defined but never referenced in any file that imports them.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "rules/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "css-modules",
+    "scss",
+    "sass",
+    "unused-css",
+    "dead-code"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samkarya/eslint-plugin-unused-css-modules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Samkarya/eslint-plugin-unused-css-modules/issues"
+  },
+  "homepage": "https://github.com/Samkarya/eslint-plugin-unused-css-modules#readme",
+  "engines": {
+    "node": ">=14"
+  },
+  "peerDependencies": {
+    "eslint": ">=7"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.3.0"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  }
+}
